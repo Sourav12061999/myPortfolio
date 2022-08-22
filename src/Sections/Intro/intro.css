@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&family=Fira+Sans:ital,wght@1,700&family=Roboto:wght@100&display=swap");
+.intro-container{
+  display: flex;
+  justify-content: space-between;
+}
+.intro-text-container {
+  width: 50%;
+  max-width: 350px;
+}
+.intro-text-container > h2 {
+  font-size: 2rem;
+  font-family: "DynaPuff", cursive;
+}
+.intro-text-container > h1 {
+  font-size: 3.4rem;
+  font-family: "DynaPuff", cursive , "Fira Sans", sans-serif, "Roboto";
+}
+.intro-text-container>P{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.intro-mac-container{
+   width: 50%;
+   max-width: 950px;
+   height: 80vw;
+   max-height:500px;
+}
+
+@media only screen and (max-width:1000px){
+  .intro-mac-container{
+    height: 50vw;
+  }
+}
+@media only screen and (max-width:650px){
+  .intro-container{
+    flex-direction: column;
+  }
+  .intro-mac-container,.intro-text-container{
+    width: 100%;
+  }
+  .intro-mac-container{
+    height: 80vw;
+  }
+}

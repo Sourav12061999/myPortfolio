@@ -1,18 +1,20 @@
 import React from "react";
 import "./App.css";
-import { Canvas, } from "@react-three/fiber";
-import Model from "./HTML";
-import { OrbitControls } from "@react-three/drei";
+import Intro from "./Sections/Intro/Intro";
+import Navbar from "./Component/Navbar/Navbar";
+const  Skills = React.lazy(() => import("./Sections/Skills/Skills"));
+const  Projects = React.lazy(() => import("./Sections/Projects/Projects"));
+const  About = React.lazy(() => import("./Sections/About/About"));
+const  Contact = React.lazy(() => import("./Sections/Contact/Contact"));
 function App() {
   return (
     <div className="App">
-      <Canvas style={{width:"100%",height:"100vh"}} color="black">
-        <ambientLight />
-        <OrbitControls/>
-        <pointLight position={[10, 10, 10]} />
-        <Model/>
-      </Canvas>
-      ,
+      <Navbar/>
+      <Intro/>
+      <Skills/>
+      <Projects/>
+      <About/>
+      <Contact/>
     </div>
   );
 }

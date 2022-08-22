@@ -1,0 +1,28 @@
+.skill-container>h1{
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
+}
+.skill-container>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skill-container>div>div{
+    width: 30%;
+   height: 300px;
+   border: 1px solid red;
+   margin-bottom: 20px;
+}
+
+@media only screen and (max-width:900px){
+    .skill-container>div>div{
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .skill-container>div>div{
+        width: 100%;
+    }
+}

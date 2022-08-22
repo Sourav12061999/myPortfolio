@@ -1,0 +1,13 @@
+
+:root{
+    --primary-color:#2196f3;
+    --primary-color-dark:#3a93dc;
+}
+.App{
+    min-height: 100vh;
+    background-color: rgba(255, 255, 255, 0.842);
+}
+.section-container{
+    width: 90%;
+    margin-inline: auto;
+}
