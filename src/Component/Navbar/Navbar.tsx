@@ -1,5 +1,14 @@
 import React from "react";
 import "./nav.css";
+import {
+  Link,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll";
 function Navbar() {
   return (
     <nav>
@@ -7,11 +16,12 @@ function Navbar() {
         <h1>{"< Sourav />"}</h1>
       </div>
       <div className="links">
-        <h3>Home</h3>
-        <h3>Skills</h3>
-        <h3>Projects</h3>
-        <h3>About me</h3>
-        <h3>Contact</h3>
+        
+        <h3><Link  to="intro-container">Home</Link></h3>
+        <h3><Link to="skill-container">Skills</Link></h3>
+        <h3><Link to="project-container">Projects</Link></h3>
+        <h3><Link to="about-container">About me</Link></h3>
+        <h3><Link to="contact-container">Contact</Link></h3>
       </div>
       <div className="contact">
         <button>Resume</button>
