@@ -14,7 +14,7 @@ function Navbar() {
         <h3>Contact</h3>
       </div>
       <div className="contact">
-        <button>Blogs</button>
+        <button>Resume</button>
       </div>
     </nav>
   );

@@ -11,7 +11,7 @@ function Skills() {
         {skillData.map(({ Model, heading }) => (
           <div key={heading}>
             <Canvas
-              style={{ width: "100%", height: "100%", border: "1px solid red" }}
+              style={{ width: "100%", height: "100%" }}
             >
               <ambientLight />
               <OrbitControls enableZoom={false} />

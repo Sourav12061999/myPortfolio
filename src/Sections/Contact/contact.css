@@ -1,0 +1,40 @@
+.contact-container{
+    width: 100%;
+    min-height: 500px;
+    background-color: white;
+    margin-top: 50px;
+}
+.contact-container>h1{
+    text-align: center;
+    font-size: 4rem;
+}
+.contact-container>p{
+    width: 90%;
+    max-width: 500px;
+    margin-inline: auto;
+    text-align: center;
+}
+.contacts{
+    margin-top: 40px;
+    margin-inline: auto;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts div{
+    width: 30%;
+    margin-inline: auto;
+}
+.contacts div:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width:800px){
+    .contacts{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .contacts>div{
+        width: 100%;
+    }
+}

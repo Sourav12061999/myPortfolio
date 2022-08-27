@@ -1,0 +1,41 @@
+.about-container{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 2%;
+}
+.img{
+    width: 100%;
+    max-width: 700px;
+    align-self: center;
+}
+.img>img{
+    width: 100%;
+}
+.text{
+    width: 100%;
+    max-width: 500px;
+}
+.text>div{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.text>div>p{
+    margin-left: 5px;
+}
+.text>h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.text>p{
+    margin-top: 10px;
+}
+
+@media only screen and (max-width:800px){
+    .about-container{
+        flex-direction: column;
+    }
+    .img{
+        margin-bottom: 20px;
+    }
+}
