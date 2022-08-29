@@ -18,7 +18,9 @@ function Navbar() {
         <h3><Link to="contact-container">Contact</Link></h3>
       </div>
       <div className="contact">
+        <a href="https://drive.google.com/drive/folders/1ZVl01QNQjuq1yfuX_B-2mYQS1Te6Pyt9?usp=sharing" target={"_blank"}>
         <button>Resume</button>
+        </a>
       </div>
     </nav>
   );
