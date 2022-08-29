@@ -2,12 +2,6 @@ import React from "react";
 import "./nav.css";
 import {
   Link,
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
 } from "react-scroll";
 function Navbar() {
   return (

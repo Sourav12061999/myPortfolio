@@ -7,7 +7,8 @@ import { DiNodejs } from "react-icons/di";
 import { DiMongodb, DiRedis } from "react-icons/di";
 import { SiExpress, SiSocketdotio, SiNextdotjs } from "react-icons/si";
 import { AiTwotoneFire } from "react-icons/ai";
-import { SiMaterialui } from "react-icons/si";
+
+import { SiMaterialui,SiTypescript } from "react-icons/si";
 import { IconType } from "react-icons";
 const projectData: Array<ProjectType> = [
   {
@@ -19,6 +20,14 @@ const projectData: Array<ProjectType> = [
     live: "https://udemy-clone-front-end.vercel.app/",
     techStack: [FaReact, SiMaterialui, SiExpress, DiMongodb, DiNodejs],
     img: "https://raw.githubusercontent.com/Sourav12061999/portfolio/master/public/udemy-pic.png",
+  },
+  {
+    heading: "Full Stack E-Commerce Website",
+    description: `This is a Fully Responsive Full Stack E-Commerce Website. No css framework or component library has been used. Everything is built from scratch.Here I have used all the features of nextjs like getStaticProps and Static Page Generation.`,
+    github: "https://github.com/Sourav12061999/We-Commerce",
+    live: "https://we-commerce.vercel.app",
+    techStack: [FaReact,SiNextdotjs, FaCss3,SiTypescript, DiMongodb, DiNodejs],
+    img: "https://next-js-blog-codebash.s3.us-east-2.amazonaws.com/Screenshot+2022-08-29+at+9.30.27+AM.png",
   },
 ];
 
